@@ -1,0 +1,86 @@
+
+
+html {
+    height: 100%;
+    font-family: Helvetica, sans-serif;
+}
+
+image {
+    width: 500;
+    height: 500;
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url("img/profilepic.jpg");
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: sticky;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+footer {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#schedHead {
+    text-align: center;
+}
+
+
+table, th, td {
+    border: 1px solid black;
+    border-spacing: 3px;
+    padding: 3px;
+}
+
+th, td {
+  width: 100px;
+}
+
+th {
+    background-color: darkgray;
+}
+
+td {
+    text-align: center;
+}
+
+tr:nth-child(odd) {
+    background-color: lightgray;
+}
+
+.seniorSeminar {
+    background-color: rgba(0, 255, 0, 0.5);
+}
+
+.capstone {
+    background-color: rgba(0, 0, 255, 0.5);
+}
+
+.humanFactors {
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+.testingAndQA {
+    background-color: rgba(255, 255, 0, 0.5);
+}
+
+.webDev {
+    background-color: rgba(0, 255, 255, 0.5);
+}
